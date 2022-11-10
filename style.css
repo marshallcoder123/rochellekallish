@@ -1,3 +1,42 @@
-p {
-    color: pink;
+* {
+    font-family: 'Roboto', sans-serif
+}
+
+
+/* header */
+header {
+    display: flex;
+    justify-content: space-around;
+    background-color: #1F2937;
+    align-items: center;
+}
+
+header ul {
+    display: flex;
+    gap: 20px;
+}
+
+header h3 {
+    color: #F9FAF8;
+    margin-right: 600px;
+    font-size: 24px;
+}
+
+header a {
+    font-size: 18px;
+    color: #E5E7EB
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
 }
