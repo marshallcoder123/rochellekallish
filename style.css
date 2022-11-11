@@ -3,7 +3,7 @@
 }
 
 
-/* header */
+/* header -------------------------------------*/
 header {
     display: flex;
     justify-content: space-around;
@@ -26,6 +26,74 @@ header a {
     font-size: 18px;
     color: #E5E7EB
 }
+/* ------------------------------------------ */
+
+/* Main ------------------------------------- */
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+    background-color: #1F2937;
+    height: 450px;
+}
+
+main h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color:#F9FAF8;
+    width: 70%;
+    margin: 0;
+    padding: 0;
+}
+
+main p , main a{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+main p {
+    width: 70%;
+}
+
+main a {
+    background-color: #3882F6;
+    width: 20%;
+    padding: 8px 12px;
+    text-align: center;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.main-left {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: 250px;
+    margin-left: 120px;
+}
+
+.main-right {
+    width: 30%;
+    height: 250px;
+    margin-left: 80px;
+    margin-bottom: 100px;
+}
+
+img {
+    width: 50%;
+    height: auto;
+    border-radius: 190px;
+    
+}
+
+
+
+
+
+
+
 
 ul {
     padding: 0;
