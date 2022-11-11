@@ -81,12 +81,78 @@ main a {
     margin-bottom: 100px;
 }
 
-img {
+.main-right img {
     width: 50%;
     height: auto;
     border-radius: 190px;
     
 }
+
+/*------------------------------------*/
+
+/* INFO SECTION -----------------------*/
+
+.info h3 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    color: #1F2937;
+}
+
+.info-flex {
+    display: flex;
+    justify-content: center;
+    gap: 95px;
+}
+
+.info-flex div {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.info-flex div img {
+    width: 300px;
+    height: 320px;
+    border-radius: 20px;
+    border: 5px solid #3882F6;
+}
+
+.info-flex div p {
+    text-align: center;
+    color: #1F2937;
+    font-size: 23px;
+}
+
+.info {
+
+    height: 450px;
+    padding-bottom: 100px;
+}
+/* ------------------------------- */
+/* Quote Section --------------------*/
+.quote {
+    height: 350px;
+    background-color: #d8d9dd;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote p {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote span {
+    margin-left: 1150px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #1F2937;
+}
+
 
 
 
